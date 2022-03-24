@@ -1,0 +1,31 @@
+.upper-part
+{
+    flex-direction: column;
+}
+.back--arrow
+{
+    width: 100%;
+    font-size: 30px;
+    
+}
+.link--arrow
+{
+    text-decoration: none;
+    color: black;
+    height: 30px;
+}
+.arrow--decoration
+{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.arrow--decoration:hover
+{
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.5);
+}

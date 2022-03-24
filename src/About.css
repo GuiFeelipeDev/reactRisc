@@ -1,0 +1,122 @@
+.person--avatar
+{
+    width: 80px;
+    height: 80px;
+    transition: 0.5s;
+}
+
+.avatar--subtext
+{
+    font-size: 0;
+    text-decoration: none;
+    position: absolute;
+    color: black;
+    transition: 0.5s;
+    z-index: 998;
+}
+.avatar--learnmore
+{
+    font-size: 0;
+    text-decoration: none;
+    position: absolute;
+    color: rgb(4, 4, 146);
+    transition: 0.5s;
+    z-index: 998;
+}
+
+.card--avatar
+{
+    transition: 0.5s;
+}
+
+.card--circle
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card--avatar:hover
+{
+    width: 300px;
+    height: 400px;
+}
+.cards-ident
+{
+    display: flex;
+    align-items: center;
+}
+.circle--avatar
+{
+    transition: 0.5s;
+}
+.card--avatar:hover .card-part
+{
+    display: flex;
+    align-items: center;
+}
+.card--avatar:hover .circle--avatar
+{
+    margin-bottom: 140px;
+    width: 120px;
+    height: 120px;
+}
+.card--avatar:hover .text--avatar
+{
+    margin-top: 50px;
+}
+.card--avatar:hover .avatar--subtext
+{
+    font-size: 17px;
+    margin-top: 120px;
+}
+.card--avatar:hover .avatar--learnmore
+{
+    font-size: 17px;
+    margin-top: 300px;
+}
+.card--avatar:hover .person--avatar
+{
+    width: 120px;
+    height: 120px;
+}
+
+@media (max-width: 1150px)
+{
+.card--avatar
+{
+    width: 300px;
+    height: 400px;
+}
+.card-part
+{
+    display: flex;
+    align-items: center;
+}
+ .circle--avatar
+{
+    margin-bottom: 140px;
+    width: 120px;
+    height: 120px;
+}
+ .text--avatar
+{
+    margin-top: 50px;
+}
+ .avatar--subtext
+{
+    font-size: 17px;
+    margin-top: 120px;
+}
+ .avatar--learnmore
+{
+    font-size: 17px;
+    margin-top: 300px;
+}
+ .person--avatar
+{
+    width: 120px;
+    height: 120px;
+}
+}
